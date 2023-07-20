@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #87ceeb, #ffc0cb); /* Blue to Pink gradient */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    display: none;
+  }
+  
+  .weather-info p {
+    margin: 5px;
+  }
+  
+  /* Weather images */
+  .weather-image {
+    max-width: 100px;
+    margin: 10px auto;
+  }
+  
+  .weather-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Weather icons */
+  .weather-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .weather-icon.sun {
+    background-image: url("sun.png"); /* Replace with the URL of your sun icon */
+  }
+  
+  .weather-icon.cloud {
+    background-image: url("cloud.png"); /* Replace with the URL of your cloud icon */
+  }
+  
+  .weather-icon.rain {
+    background-image: url("rain.png"); /* Replace with the URL of your rain icon */
+  }
+  
+  .weather-icon.snow {
+    background-image: url("snow.png"); /* Replace with the URL of your snow icon */
+  }
+  
+  /* Add more classes for different weather conditions as needed */
+  
